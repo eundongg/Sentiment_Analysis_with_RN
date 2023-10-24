@@ -14,7 +14,7 @@ const MainScreen = () => {
     <View style={styles.container}>
       <Text style={styles.titleText}>일상 기록</Text>
       <Text style={styles.normalText}>
-        아래의 버튼을 누르고 일기를 작성하세요!
+        아래의 버튼을 누르고 일기를 작성하세요!{' '}
         <Text style={styles.chatGPTText}>chatGPT</Text> 
         가 당신의{' '}
         <Text style={styles.RedText}>
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     padding: 10, 
     borderRadius:5,
     position:'absolute',
-    top:400,
+    top:450,
   },
   buttonText:{
     fontFamily:'The-Jamsil-3-Regular',
